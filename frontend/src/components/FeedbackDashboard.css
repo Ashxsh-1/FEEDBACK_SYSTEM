@@ -1,0 +1,77 @@
+.dashboard-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4e9af1 0%, #8f5be8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dashboard-container {
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px 32px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  min-width: 400px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.filter-icon {
+  color: #4e9af1;
+  font-size: 1.5rem;
+  transition: color 0.2s;
+}
+.filter-icon:hover {
+  color: #8f5be8;
+}
+
+.feedback-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.feedback-card {
+  background: #f6f8fc;
+  border-radius: 10px;
+  padding: 18px 16px;
+  box-shadow: 0 2px 8px rgba(78,154,241,0.07);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feedback-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feedback-name {
+  font-weight: bold;
+  color: #4e9af1;
+  font-size: 1.1rem;
+}
+
+.feedback-date {
+  font-size: 0.95rem;
+  color: #8f5be8;
+}
+
+.feedback-email {
+  font-size: 0.95rem;
+  color: #888;
+}
+
+.feedback-message {
+  margin-top: 4px;
+  font-size: 1.05rem;
+  color: #222;
+}
